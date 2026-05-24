@@ -1,0 +1,7 @@
+id,name,category,summary,best_for,beginner,official_url,detail_page
+chatgpt,ChatGPT,AI文章作成,"文章作成からアイデア出しまで幅広く対応","文章作成・要約・下書き",高,https://example.com/chatgpt,tools/chatgpt.html
+claude,Claude,AI文章作成,"長文読解や丁寧な文章調整がしやすい","長文の要約・編集",高,https://example.com/claude,tools/claude.html
+gemini,Gemini,AI業務自動化,"Google系サービスとの連携がしやすい","調査・整理・連携",中,https://example.com/gemini,tools/gemini.html
+canva-ai,Canva AI,AI画像作成,"テンプレート活用で画像や資料を作りやすい","画像作成・デザイン",高,https://example.com/canva-ai,tools/canva-ai.html
+notion-ai,Notion AI,AI資料作成,"メモ・ドキュメント管理とAI支援を一体化","社内ドキュメント整理",中,https://example.com/notion-ai,tools/notion-ai.html
+microsoft-copilot,Microsoft Copilot,AI議事録,"Microsoft 365との連携で業務に馴染みやすい","会議メモ・資料草案",中,https://example.com/microsoft-copilot,tools/microsoft-copilot.html

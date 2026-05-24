@@ -3,64 +3,80 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AIツール比較メディア | 仕事をラクにする初心者向けガイド</title>
-  <meta name="description" content="小規模事業者・個人向けに、仕事をラクにするAIツールをわかりやすく比較。結論・比較表・FAQですぐに選べるAIツール比較メディア。" />
+  <title>AI仕事ラク比較｜ひとり仕事をラクにするAIツール案内</title>
+  <meta name="description" content="メール返信、資料作成、SNS投稿、議事録作成など、小規模事業者や個人事業主の毎日の作業をラクにするAIツールを初心者向けに比較します。" />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "AIツール比較メディア",
-    "url": "https://example.github.io/ai-tools-media/",
-    "description": "小規模事業者・個人向けのAIツール比較サイト",
-    "inLanguage": "ja"
-  }
-  </script>
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <h1>AIツール比較メディア</h1>
-      <p class="lead">初心者でも、今の仕事に合うAIを選びやすく。</p>
+      <p class="badge">小規模事業者・個人事業主向け</p>
+      <h1>AIツールで、ひとり仕事をもっとラクに。</h1>
+      <p class="lead">メール返信、資料作成、SNS投稿、議事録作成。毎日抱える面倒な作業を、AIで短くする方法をわかりやすく紹介します。</p>
       <nav>
-        <a href="index.html">トップ</a>
-        <a href="tools.html">ツール一覧</a>
+        <a href="tools.html">おすすめAIツールを見る</a>
+        <a href="#work">仕事別に探す</a>
         <a href="category.html">カテゴリ比較</a>
         <a href="article.html">記事</a>
-        <a href="about.html">運営者情報</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
     <section class="card">
-      <h2>結論：最初の1本は「用途」で選ぶのが失敗しにくいです</h2>
-      <p>AIツールは「機能の多さ」よりも、「毎日やる作業に合っているか」で選ぶと続けやすいです。まずは文章作成・議事録・資料作成など、最も時間を使う業務から試しましょう。</p>
+      <h2>このサイトでできること</h2>
+      <p>AIツールの名前を並べるだけではなく、「どの仕事をラクにしたいか」から選べるようにしています。まずは無料プランで試し、毎週使う作業だけ有料化するのがおすすめです。</p>
       <a class="btn" href="tools.html">ツール一覧を見る</a>
     </section>
 
-    <section class="card">
-      <h2>人気ツール比較（MVP版）</h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>ツール</th><th>得意分野</th><th>初心者向け</th><th>詳細</th></tr></thead>
-          <tbody id="top-compare-table"></tbody>
-        </table>
+    <section class="card" id="work">
+      <h2>悩み別に探す</h2>
+      <div class="grid">
+        <div><h3>メール返信を短くしたい</h3><p>問い合わせ返信、営業メール、定型文の下書きを作ります。</p></div>
+        <div><h3>SNS投稿をラクにしたい</h3><p>投稿案、キャプション、ハッシュタグの案を作ります。</p></div>
+        <div><h3>資料作成を早くしたい</h3><p>構成案、見出し、説明文を作り、作業時間を減らします。</p></div>
+        <div><h3>議事録を自動化したい</h3><p>会議内容の文字起こしや要点整理に使えます。</p></div>
+        <div><h3>ブログ記事を書きたい</h3><p>記事構成、本文下書き、FAQ作成をサポートします。</p></div>
       </div>
     </section>
 
     <section class="card">
-      <h2>よくある質問（FAQ）</h2>
-      <details><summary>無料で始められますか？</summary><p>多くのツールに無料プランや無料トライアルがあります。まずは無料枠で使い方に慣れるのがおすすめです。</p></details>
-      <details><summary>どのカテゴリから試すべきですか？</summary><p>毎日時間がかかっている作業からです。例：メール作成が多いならAI文章作成、会議が多いならAI議事録。</p></details>
-      <details><summary>このサイトの情報は随時更新されますか？</summary><p>はい。data/tools.csv を更新することで一覧や比較に反映しやすい構成です。</p></details>
+      <h2>仕事別おすすめAIツール</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>仕事</th><th>候補ツール</th><th>まず見るポイント</th></tr></thead>
+          <tbody>
+            <tr><td>文章作成</td><td>ChatGPT / Claude / Gemini</td><td>日本語の自然さ、無料枠、使いやすさ</td></tr>
+            <tr><td>画像作成</td><td>Canva AI</td><td>SNS画像をすぐ作れるか</td></tr>
+            <tr><td>メモ整理</td><td>Notion AI</td><td>メモ、議事録、タスク整理に合うか</td></tr>
+            <tr><td>資料作成</td><td>Microsoft Copilot / Canva AI</td><td>普段使うソフトと相性が良いか</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><a class="btn" href="category.html">料金・日本語対応・無料プランで比較する</a></p>
+    </section>
+
+    <section class="card">
+      <h2>初心者の選び方</h2>
+      <ul>
+        <li>まず「毎日めんどうな作業」を1つ選ぶ</li>
+        <li>無料プランで3日だけ試す</li>
+        <li>時間が本当に短くなったものだけ続ける</li>
+        <li>会社で使う場合は、顧客情報や社外秘情報を入れてよいか確認する</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>よくある質問</h2>
+      <details><summary>AIツールは初心者でも使えますか？</summary><p>はい。最初はChatGPTやCanva AIなど、画面がわかりやすいものから始めるのがおすすめです。</p></details>
+      <details><summary>無料でも使えますか？</summary><p>多くのAIツールには無料プランや無料トライアルがあります。最初から有料契約する必要はありません。</p></details>
+      <details><summary>どのAIツールから始めるべきですか？</summary><p>文章ならChatGPT、画像やSNSならCanva AI、メモ整理ならNotion AIが始めやすいです。</p></details>
+      <details><summary>会社で使っても大丈夫ですか？</summary><p>使えますが、入力してよい情報のルールは会社ごとに確認してください。</p></details>
     </section>
   </main>
 
   <footer class="container footer">
     <a href="privacy.html">プライバシーポリシー</a> | <a href="disclaimer.html">免責事項</a>
   </footer>
-
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
